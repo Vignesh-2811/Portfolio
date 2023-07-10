@@ -1,37 +1,37 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import { ImPointRight } from 'react-icons/im';
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className='quote-card-view'>
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Shakthi Vignesh </span>
-            from <span className="purple"> Chennai, India.</span>
-            <br /> I am a final year student pursuing BE Computer Science and Engineering at SVCE, Chennai.
+        <blockquote className='blockquote mb-0'>
+          <p style={{ textAlign: 'justify' }}>
+            Hi Everyone, I am <span className='purple'>Shakthi Vignesh </span>
+            from <span className='purple'> Chennai, India.</span>
+            <br /> I am a final year student pursuing BE Computer Science and
+            Engineering at SVCE, Chennai.
             <br />
-            
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity">
+            <li className='about-activity'>
               <ImPointRight /> Playing Games
             </li>
-            <li className="about-activity">
+            <li className='about-activity'>
               <ImPointRight /> Watching anime
             </li>
-            <li className="about-activity">
+            <li className='about-activity'>
               <ImPointRight /> Travelling
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"
+          <p style={{ color: 'rgb(155 126 172)' }}>
+            "The best error message is the one that never shows up."
           </p>
-          <footer className="blockquote-footer">Vignesh</footer>
+          <footer className='blockquote-footer'>Thomas Fuchs</footer>
         </blockquote>
       </Card.Body>
     </Card>

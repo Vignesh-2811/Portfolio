@@ -5,7 +5,6 @@ import Particle from '../Particle';
 import ecom from '../../Assets/Projects/E-Commerce.jpg';
 import tsa from '../../Assets/Projects/tsa.jpg';
 import filmfusion from '../../Assets/Projects/film-fusion.png';
-import chatify from '../../Assets/Projects/chatify.png';
 import random from '../../Assets/Projects/random.png';
 import fdfsc from '../../Assets/Projects/fdfsc.jpg';
 
