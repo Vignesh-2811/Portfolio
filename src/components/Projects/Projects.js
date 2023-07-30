@@ -7,6 +7,7 @@ import tsa from '../../Assets/Projects/tsa.jpg';
 import filmfusion from '../../Assets/Projects/film-fusion.png';
 import random from '../../Assets/Projects/random.png';
 import fdfsc from '../../Assets/Projects/fdfsc.jpg';
+import tmt from '../../Assets/Projects/tmt.svg';
 
 function Projects() {
   return (
@@ -20,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
+          <Col md={4} className='project-card'>
+            <ProjectCard
+              imgPath={tmt}
+              isBlog={false}
+              title='Take My Tickets'
+              description='TakeMyTickets is a web app that aims to revolutionize the ticket buying and selling experience.
+•A Go-to platform for people to buy and sell tickets to events, concerts, games, and more. By providing a seamless, secure,
+and user-friendly platform.'
+              demoLink='https://www.takemytickets.co.in/'
+            />
+          </Col>
+
           <Col md={4} className='project-card'>
             <ProjectCard
               imgPath={filmfusion}
