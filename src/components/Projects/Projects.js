@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ProjectCard from './ProjectCards';
+import Live from './Live';
 import Particle from '../Particle';
 import ecom from '../../Assets/Projects/E-Commerce.jpg';
 import tsa from '../../Assets/Projects/tsa.jpg';
@@ -22,7 +23,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: 'center', paddingBottom: '10px' }}>
           <Col md={4} className='project-card'>
-            <ProjectCard
+            <Live
               imgPath={tmt}
               isBlog={false}
               title='Take My Tickets'
