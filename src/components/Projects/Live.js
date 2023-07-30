@@ -7,7 +7,12 @@ import { BsGithub } from 'react-icons/bs';
 function Live(props) {
   return (
     <Card className='project-card-view'>
-      <Card.Img variant='top' src={props.imgPath} alt='card-img' />
+      <Card.Img
+        style={{ maxHeight: '16rem' }}
+        variant='top'
+        src={props.imgPath}
+        alt='card-img'
+      />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: 'justify' }}>
